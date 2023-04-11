@@ -1,0 +1,21 @@
+{
+  "name": "racetrack-on-promises",
+  "version": "1.0.0",
+  "description": "In this project the following technologies has been used:\r * asynchronous code\r * Promise API\r * Web Storage API",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "deploy": "parcel build && gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  }
+}
