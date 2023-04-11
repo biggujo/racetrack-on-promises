@@ -1,0 +1,47 @@
+.racetrack {
+  margin: 10px;
+  padding-block: 10px;
+  padding-inline: 25px;
+
+  &__display {
+  }
+
+  &__text {
+    font-size: 18px;
+
+    &--accent {
+      font-weight: bold;
+    }
+  }
+
+  &__table-container {
+  }
+}
+
+.racetrack__table {
+  $defaultColumnWidth: 60px;
+
+  border-collapse: collapse;
+
+  & th {
+    width: $defaultColumnWidth * 2;
+  }
+
+  & td {
+    text-align: left;
+  }
+
+  & td, & th {
+    padding: 10px;
+
+    border: 1px solid black;
+  }
+
+  .racetrack__table-column--small {
+    width: $defaultColumnWidth;
+  }
+
+  .racetrack__table-column--big {
+    width: $defaultColumnWidth * 3;
+  }
+}
