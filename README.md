@@ -1,6 +1,6 @@
 # racetrack-on-promises
 
-In this project the following technologies had been used:
+In this project the following technologies has been used:
 * asynchronous code
 * Promise API
 * Web Storage API
