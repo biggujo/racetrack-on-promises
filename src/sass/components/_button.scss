@@ -1,0 +1,12 @@
+.button {
+  padding-inline: 20px;
+  padding-block: 7px;
+
+  background-color: #f0f0f0;
+  border: 1px solid #000000;
+  border-radius: 7px;
+
+  &:active, &:focus {
+    outline: 2px solid black;
+  }
+}

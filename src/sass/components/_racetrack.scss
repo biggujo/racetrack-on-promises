@@ -6,6 +6,11 @@
   &__display {
   }
 
+  &__control {
+    cursor: default;
+    user-select: none;
+  }
+
   &__text {
     font-size: 18px;
 
