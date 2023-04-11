@@ -8,7 +8,52 @@
     <title>Document</title>
   </head>
   <body>
-    <div><p>123</p></div>
+    <main>
+      <div class="container">
+        <div class="racetrack">
+          <div class="racetrack__display">
+            <p class="racetrack__text">
+              <span class="racetrack__text--accent">Status: </span>
+              <span class="status-msg">–</span>
+            </p>
+            <p class="racetrack__text">
+              <span class="racetrack__text--accent">Winner: </span>
+              <span class="winner-msg">–</span>
+            </p>
+          </div>
+
+          <div class="racetrack__control">
+            <button type="button" id="start-btn" class="button">Start</button>
+            <button type="button" id="clear-btn" class="button">Clear</button>
+          </div>
+
+          <div class="racetrack__table-container">
+            <h2>Last winners</h2>
+            <table class="racetrack__table">
+              <thead>
+              <tr>
+                <th class="racetrack__table-column--small">No.</th>
+                <th class="racetrack__table-column--big">Name</th>
+                <th class="racetrack__table-column">Time</th>
+              </tr>
+              </thead>
+              <tbody>
+<!--              <tr>-->
+<!--                <td>1</td>-->
+<!--                <td>Maria Anders</td>-->
+<!--                <td>Germany</td>-->
+<!--              </tr>-->
+<!--              <tr>-->
+<!--                <td>2</td>-->
+<!--                <td>Francisco Chang</td>-->
+<!--                <td>Mexico</td>-->
+<!--              </tr>-->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
     <script src="./js/index.js" type="module"></script>
   </body>
 </html>
